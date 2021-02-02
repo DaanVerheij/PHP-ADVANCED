@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,8 +16,18 @@
     echo "<br />Leeftijd: " .$_POST["leeftijd"];
     echo "<br />Adres: " .$_POST["adres"];
     echo "<br />Plaatsnaam: " .$_POST["plaatsnaam"];
-
+    echo "<br />Geslacht: " .$_POST["drone"];
+    
+   
     ?>
+
+    <style>
+        body
+        {
+            background color: <?php echo $kleur; ?>;
+        }
+    </style>
+
 
 </body>
 </html>

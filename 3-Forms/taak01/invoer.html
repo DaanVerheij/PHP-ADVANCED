@@ -16,9 +16,40 @@ Leeftijd:    <input type="text" name="leeftijd"><br>
 Adres:    <input type="text" name="adres"><br>
 Plaatsnaam:    <input type="text" name="plaatsnaam"><br>
     
-    <input type="submit" name="submit" value="verstuur">
 
-</form>    
+<p>Geslacht:</p>
+
+    <div>
+        <input type="radio" id="man" name="drone" value="man"
+            checked>
+        <label for="man">Man</label>
+    </div>
+
+    <div>
+        <input type="radio" id="vrouw" name="drone" value="vrouw">
+        <label for="vrouw">Vrouw</label>
+    </div>
+<br>
+    
+<p>Favoriete kleur:</p>
+<form method="POST" action="mijngegevens.php">
+    <select name="kleur" id="kleur">
+        <option value="green ">Groen</option>
+        <option value="red">Rood</option>
+        <option value="blue">Blauw</option>
+        <option value="orange">Oranje</option>
+        <option value="black">Zwart</option>
+    </select>    
+
+<input type="submit" name="submit" value="verstuur">
+</form>
+
+
+
+
+
+
+
 
 
 
